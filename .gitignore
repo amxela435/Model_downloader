@@ -1,0 +1,37 @@
+# Do not include sensitive or local-only files
+myREADME.md
+.env
+.venv/
+LocalAI-backup*.tar.gz
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.sock
+
+# Neo4j data (database files should not be versioned)
+neo4j/data/
+
+# Models (large files, binaries)
+models/
+
+# Gradio temporary files
+gradio_app/__pycache__/
